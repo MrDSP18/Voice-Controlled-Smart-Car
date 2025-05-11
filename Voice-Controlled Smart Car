@@ -1,0 +1,57 @@
+# 🚗 Voice-Controlled Smart Car
+
+A Bluetooth-based voice-controlled car developed using Arduino UNO and the BT Voice Control for Arduino app. The car responds to voice commands like "forward", "backward", "left", "right", and "stop" through a Bluetooth connection.
+
+---
+
+## 📌 Features
+
+- Control car movement via voice commands
+- Bluetooth connectivity using HC-05 module
+- Simple Arduino-based circuit design
+- Real-time command execution
+- Supports basic directional commands
+
+---
+
+## 📷 Components Used
+
+- Arduino UNO  
+- HC-05 Bluetooth Module  
+- L298N Motor Driver Module  
+- DC Motors (x2 or x4)  
+- 9V Battery  
+- Chassis  
+- Connecting wires  
+
+---
+
+## 📱 Voice Commands (through BT Voice Control app)
+
+- `Forward`
+- `Backward`
+- `Left`
+- `Right`
+- `Stop`
+
+---
+
+## 🔌 Circuit Diagram
+
+*(Attach an image of your connection diagram or Fritzing schematic here — optional but recommended)*
+
+---
+
+## 📝 How to Run
+
+1. Connect the components as per the circuit diagram.
+2. Upload the Arduino code (`Voice_Controlled_Car.ino`) to the Arduino UNO.
+3. Pair your phone with the HC-05 Bluetooth module.
+4. Open the "BT Voice Control for Arduino" app.
+5. Connect to the paired HC-05 module.
+6. Send voice commands to control the car.
+
+---
+
+## 📦 Project Structure
+
